@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (No queremos subir gigas de librerías)
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Configuración de VS Code
+.vscode/
+
+# Jupyter Notebook (si llegas a usarlos)
+.ipynb_checkpoints
+
+# Archivos de sistema y logs
+*.log
+.DS_Store
+Thumbs.db
