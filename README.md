@@ -3,4 +3,4 @@ Repositorio de mi curso de python, subiré archivos de prátcia y carpetas de po
 
 Buenos días, primer commit :3
 
-RECUERDE HACER UNA ISSUE POR CADA TAREA Y UNA RAMA POR CADA ISSUE <3
+RECUERDE HACER UNA ISSUE POR CADA TAREA Y UNA RAMA POR CADA ISSUE
