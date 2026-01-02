@@ -49,6 +49,8 @@ print(nombre.upper()) # Convierte a mayúsculas
 print(nombre.lower()) # Convierte a minúsculas
 print(nombre.join(["Un saludo señor ", ", te amo"])) # Une elementos con el string nombre como separador (lo pone entre cada elemento)
 print(nombre.replace("e", "a")) # Reemplaza 'e' por 'a
+
+
 #Capitaliza la primera letra.
 
 texto = "hola mundo"
@@ -77,7 +79,7 @@ print(texto.split(","))  # ['hola', 'mundo', 'Python']
 #join(iterable)
 #Une elementos de un iterable en una sola cadena.
 lista = ["hola", "mundo"]
-print(" ".join(lista))  # "hola mundo"
+print(" si ".join(lista))  # "hola mundo"
 
 #find(sub)
 #Busca una subcadena y devuelve el índice de su primera aparición.
