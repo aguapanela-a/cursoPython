@@ -49,3 +49,8 @@ print(lista_contactos["miguel"])
 ###e-commerce con info de productos
 ### info de clientes
 ### info de cifras 
+
+## lista de contactos en formato json.
+import json
+json_data = json.dumps(lista_contactos)
+print("Datos en json: ", json_data)
