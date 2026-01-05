@@ -63,7 +63,49 @@ def generador_fibonacci(fin):
         yield fibonacci
 
 fin = 400
-for numero in generador_fibonacci(400):
+for numero in generador_fibonacci(fin):
     print (numero)
 
+## resumen ##
+## Iteradores: Necesitan definir explícitamente los métodos __iter__() y __next__().
+## Generadores: Se definen usando una función con yield.
 
+## reto: generadoires de pares e impares:
+
+def generador_pares(limite):
+    numero = 0
+    while numero < limite:
+        numero +=2
+        yield numero
+
+def generador_impares(limite):
+    numero = 1
+    while numero < limite:
+        numero += 2
+        yield numero 
+print("par")
+
+for par in generador_pares(20):
+    print(par)
+
+
+print("impar")
+for impar in generador_impares(21):
+    print(impar)
+
+def par_impar_generator(limite, modo):
+    numero=0
+    while numero < limite:
+        numero += 1
+        if modo == "par":
+            if numero % 2 == 0:
+                yield numero
+        elif modo == "impar":
+            if numero % 2 == 1:
+                yield numero
+        else:
+            print("debe escribir par o impar")
+            break
+print("generador de ambos")
+for numero in par_impar_generator(20,"impar"):
+    print(numero)

@@ -12,7 +12,7 @@ for  i in range(10):
 
 contador = 0
 while  contador <= 100:
-    contador+=1
+    contador+=1 
     if contador == 18:
         continue
     print(f"El valor delcontador en while es de {contador}")
