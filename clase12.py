@@ -2,10 +2,8 @@
 import random
 jugador1 = input("Ingrese su nombre jugador 1")
 jugador2 = input("Ingrese su nombre jugador 2")
+opciones = {1: "piedra", 2: "papel", 3: "tijera"}
 
-piedra = 1
-papel = 2
-tijera = 3
 
 eleccion_j1 = random.randint(1,3)
 eleccion_j2= random.randint(1,3)
@@ -29,7 +27,7 @@ elif eleccion_j1 == 2:
         
     if eleccion_j2 == 3:
          print(f"{jugador2} eligió tijera \n Ganó {jugador2}")
-elif eleccion_j1 == 3:
+else: # eleccion_j1 == 3 
     print(f"{jugador1} eligió tijera")
     if eleccion_j2 == 1:
          print(f"{jugador2} eligió piedra \n Ganó {jugador2}")
@@ -38,7 +36,5 @@ elif eleccion_j1 == 3:
         
     if eleccion_j2 == 3:
          print(f"{jugador2} eligió tijera \n Hay empate")
-else:
-    print("Error en la elección")
-          
+
 
