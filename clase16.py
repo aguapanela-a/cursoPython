@@ -42,8 +42,10 @@ def calcular(texto):
             operadores[operador] = "."
     
     ### FALTA PONER EN UNA LISTA NUMEROS Y OPERADORES INTERCALADOS ##
-        
-    return numeros, operadores
+    for num in numeros:
+        if num != ".":
+            lista_final.append(num)  ##aqui voy       
+    return numeros, operadores, lista_final
 
 print(calcular("21-34+999/666/75/454*1342+1234"))  ##vamos bien
 
