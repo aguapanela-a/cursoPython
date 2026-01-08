@@ -1,7 +1,7 @@
 ## funciones y parámetros en python ##
 ## calculadora ##
 def separar_elementos(texto): ## 34*34/4
-    numero_actual = ""
+    numero_actual = "" #"34"
     numeros  = []
     operadores = []
     
@@ -11,8 +11,8 @@ def separar_elementos(texto): ## 34*34/4
         
         else:
             operadores.append(char)
-            numero_flotante = float(numero_actual)
-            numeros.append(numero_flotante)
+            numero_flotante = float(numero_actual) #34.0
+            numeros.append(numero_flotante) 
             numero_actual = ""
     
     numeros.append(float(numero_actual))
