@@ -11,3 +11,5 @@ print(f"Números: {numeros} \nCuadrados: {cuadrados}")
 #map(se aplcará esto, a esto)
 
 ## ahora usarémos función filter() para filtrar elementos que complen con una condición
+impares = list(filter(lambda x: x%2==1, numeros))  ##aquí se creará unalista dónde se filtrará los x de "numeros" tales que cumplan ocn la condición de la función lambda
+print(impares)
