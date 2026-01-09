@@ -18,7 +18,7 @@ def fibonacci(nivel):
   else:
     return fibonacci(nivel-1) + fibonacci(nivel-2)
   
-print(fibonacci(6))
+print("fibonacci: ",fibonacci(30))
 
 
 ## función sumatoria 4 = 4+3+2+1   =   
