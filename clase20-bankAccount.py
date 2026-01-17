@@ -4,7 +4,7 @@ class BankAccount:
         self.balance = balance
         self.is_Active = True
     
-    def deposit_withdraw_money(self, amount):
+    def deposit_withdraw_money(self, amount): ## Este método Viola el Principio de Responsabilidad Única: Una función debería hacer una sola cosa. Aquí, la función maneja la lógica, la interfaz (inputs) y la validación.
         if self.is_Active:
             
             while True:
