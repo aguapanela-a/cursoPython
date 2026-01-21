@@ -17,6 +17,12 @@ class CuentaBancaria:
             return "Monto inválido."
         self.balance -= amount
         return f"Retiro exitoso. Saldo: {self.balance}"
+    
+    def inactivar(self):
+        self.is_Active = False
+    
+    def activar(self):
+        self.is_Active = True
 
     # --- MODO INTERACTIVO (El menú que tú querías) ---
     def menu_transaccion(self, amount):
@@ -35,3 +41,11 @@ class CuentaBancaria:
                 break
             else:
                 print("Opción no válida.")
+
+cuentaBancaria = CuentaBancaria(10_000, True)
+
+cuentaBancaria.menu_transaccion(11_000)
+
+#cuentaBancaria.inactivar()
+
+cuentaBancaria.menu_transaccion(20_000)
