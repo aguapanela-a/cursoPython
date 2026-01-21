@@ -32,7 +32,7 @@ print("Elimino el cuarto elemento")
 del lista_mixta[3]
 print("lista con el cuarto elemento eliminado: ", lista_mixta)  
 
-##elimino el tercer elemento por su valor con remove
+##elimino un elemento por su valor con remove
 lista_mixta.remove('19')
 print("lista con el elemento '19' eliminado: ", lista_mixta)
 

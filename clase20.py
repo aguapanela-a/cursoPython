@@ -1,4 +1,5 @@
-## las clases son una plantilla con la que instanciarán objetos con esos atributos (variables) y métodos (funciones)
+## POO EN PYTHON ##
+# # las clases son una plantilla con la que instanciarán objetos con esos atributos (variables) y métodos (funciones)
 
 ## Creao la calse tipo Persona:
 class Person:   
@@ -11,7 +12,7 @@ class Person:
         return saludo
     
 
-persona1 = Person("Erick", 20)
+persona1 = Person("Erick", 20) ## crear un opbjeto persona1 de tipo Person
 persona2 = Person("Laura", 25)
 
 usuario = input("Por favorn ingrese su nombre de usuario: ")
