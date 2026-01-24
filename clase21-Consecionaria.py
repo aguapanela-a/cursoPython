@@ -31,3 +31,13 @@ class User:
         
     def view_vehicles(self):
         pass #Ejecuta el método mostrar vehiculos disponibles de la consesionaria
+
+class Car:
+    def __init__(self, brand, model, color):
+        self.brand = brand
+        self.model = model
+        self.color = color
+        self.is_available = True
+
+class Concessionaire:
+    pass
