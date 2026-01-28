@@ -18,6 +18,6 @@ print(impares)
 ##reduce()
 from functools import reduce
 
-factorial = reduce(lambda x, y: x*y, numeros)
+factorial = reduce(lambda x, y: x*y, numeros)  #reduce aplica la función lambda (multiplicación) de manera acumulativa, es decir, primero multiplica los dos primeros elementos, luego el resultado con el siguiente, y así sucesivamente a cada elemento de la lista "numeros"
 
 print(f"10!: {factorial}")
