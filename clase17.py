@@ -20,4 +20,4 @@ from functools import reduce
 
 factorial = reduce(lambda x, y: x*y, numeros)  #reduce aplica la función lambda (multiplicación) de manera acumulativa, es decir, primero multiplica los dos primeros elementos, luego el resultado con el siguiente, y así sucesivamente a cada elemento de la lista "numeros"
 
-print(f"10!: {factorial}")
+print(f"10!: {factorial}")# el resultado es 3628800, que es el factorial de 10 (10*9*8*7*6*5*4*3*2*1)
